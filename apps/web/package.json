@@ -1,0 +1,11 @@
+{
+  "name": "@memora-ws/web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@memora-ws/ui": "0.0.1"
+  },
+  "nx": {
+    "name": "web"
+  }
+}
