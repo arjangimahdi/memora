@@ -1,5 +1,5 @@
 {
-  "name": "@memora-ws/ui",
+  "name": "@memora-ws/tokens",
   "version": "0.0.1",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -9,16 +9,16 @@
       "import": "./src/index.ts",
       "default": "./src/index.ts"
     },
+    "./theme.css": "./src/generated/theme.css",
     "./package.json": "./package.json"
   },
-  "peerDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+  "scripts": {
+    "generate": "node scripts/build-tokens.mjs"
   },
   "nx": {
-    "name": "ui"
+    "name": "tokens"
   },
-  "dependencies": {
-    "tailwind-variants": "^3.3.1"
+  "devDependencies": {
+    "style-dictionary": "^5.5.2"
   }
 }

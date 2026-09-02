@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@memora-ws/ui": "0.0.1"
+    "@memora-ws/tokens": "^0.0.1",
+    "@memora-ws/ui": "0.0.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3"
   },
   "nx": {
     "name": "web"

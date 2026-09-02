@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+@import '@memora-ws/tokens/theme.css';
+
+@source '../../../packages/ui/src';
+
+body {
+  margin: 0;
+  background-color: var(--color-surface);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
